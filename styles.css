@@ -1,0 +1,450 @@
+/********** PAGE ACCUEIL **********/ 
+
+.background-image{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	background-color: black;
+	background: url(images/main.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	font-size: 45px;
+	color: #444;
+	margin-top: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.center{
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+.orange{
+	color: #ff7a00;
+}
+
+.clear{
+	clear: both;
+}
+
+small{
+	font-size: 13px;
+	font-style: italic;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width: 768px){
+	.navbar {border-radius: 0px;}
+}
+
+
+#affiche{
+	width: 80%;
+	height: 80%;
+}
+
+
+/****** HEADER ******/
+
+
+header h1{
+	float: left;
+	margin-top: 32px;
+}
+
+
+header nav ul li{
+	float: left;
+	display: inline-block;
+}
+
+header nav ul li a{
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+	margin-right: 30px;
+	font-size: 1.7rem;
+}
+
+#menu {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.evergreen {
+	color: #fff;
+	font-size: 3.5rem;
+	font-family: "Apple Chancery", "Marion", serif;
+	padding-left: 25px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+header nav div div h1{
+	margin-top: 10px;
+}
+
+.logout{
+	background-color: transparent;
+}
+
+.container-fluid, .navbar-collapse{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/***** FOOTER *****/ 
+
+footer{
+	height: 260px;
+	background-color: #444;
+	width: 100%;
+}
+
+footer h1{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.copyright{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	color: #777;
+}
+
+.evergreen-footer {
+	color: #fff;
+	font-size: 5rem;
+	font-family: "Apple Chancery", "Marion", serif;
+}
+
+
+/********** PAGE INDEX **********/ 
+
+
+#title {
+	color: #fff !important;
+	text-align: center;
+	font-size: 70px;
+	margin-top: 200px;
+	text-shadow: 2px 4px rgba(0, 0, 0, 0.70);
+	font-family: "Apple Chancery", "Marion", serif;
+}
+
+@media (min-width: 320px) {  
+	#title {font-size:5rem;} /*1rem = 16px*/
+}
+ 
+@media (min-width: 768px) {  
+	#title {font-size:6rem;} /*1rem = 16px*/
+}
+ 
+@media (min-width: 992px) { 
+	#title {font-size:7rem;} /*1rem = 16px*/
+
+}
+
+@media (min-width: 1200px) {  
+	#title {font-size:8rem;} /*1rem = 16px*/  
+}
+
+
+.button-4{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.80);
+	padding: 20px 50px;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.80);
+}
+
+.button-4:hover{
+	color: #fff;
+	background-color: #02B8DD;
+}
+
+.center {
+	margin-top: 50px;
+	display:block;
+	text-align: center;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/********** PAGE FILM **********/ 
+
+
+
+#demo_en, #demo_gr {
+	display: none;
+}
+
+#demo_en, #demo_gr, #demo_fr {
+	margin-top: 0;
+}
+
+.film{
+	border: 1px solid #3d8c40;
+	margin: 0;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+
+/****** FORMULAIRES ******/
+
+.formulaire{
+	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.70);
+}
+
+form legend{
+	color: #fff; 
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form label{
+	color: #fff;
+}
+
+.evergreenform {
+	color: #fff !important;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+	text-shadow: 2px 4px rgba(0, 0, 0, 0.70);
+	font-family: "Apple Chancery", "Marion", serif;
+
+}
+div a{
+	color: #fff
+}
+
+div a:hover{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.80);
+}
+
+div a:focus{
+	text-decoration: none;
+}
+
+.error{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: red;
+}
+
+/****** PAGE ARTICLES ******/
+
+
+.thumbnail {
+	position: relative;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+.thumbnail:hover {
+	background-color: #5CB85C;
+}
+
+.votes {
+	font-size: 47px;
+	color: #197BB5;
+	padding: 10px;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+
+/****** CONTACT ******/
+
+
+.header {
+	color: #36A0FF;
+	font-size: 27px;
+	padding: 10px;
+}
+
+.bigicon {
+	font-size: 35px;
+	color: #36A0FF;
+}
+
+
+/***** PAGE ARTICLE SENARIO *****/
+
+ 
+@media (min-width: 992px) { 
+	.commentaire {width:60%;}
+}
+
+
+@media (max-width: 992px) {  
+	.commentaire {width:100%;}
+}
+
+
+/***** PAGE ARTICLE TOURNAGE *****/
+
+
+
+
+
+#body-t {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #333;
+}
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.masonry {
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -moz-column-gap: 30px;
+  -webkit-column-gap: 30px;
+  column-gap: 30px;
+  -moz-column-fill: initial;
+  -webkit-column-fill: initial;
+  column-fill: initial;
+}
+.masonry .brick {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.masonry .brick img {
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.masonry .brick:hover img {
+  opacity: .75;
+}
+.masonry.bordered {
+  -moz-column-rule: 1px solid #eee;
+  -webkit-column-rule: 1px solid #eee;
+  column-rule: 1px solid #eee;
+  -moz-column-gap: 50px;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+}
+.masonry.bordered .brick {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+.masonry.gutterless {
+  -moz-column-gap: 0;
+  -webkit-column-gap: 0;
+  column-gap: 0;
+}
+.masonry.gutterless .brick {
+  margin-bottom: 0;
+}
+
+.span {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+  *margin: 30px 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+
+  .intro {
+    letter-spacing: 1px;
+  }
+
+  .wrapper {
+    width: 80%;
+    padding: 2em;
+  }
+
+  .masonry {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    width: 85%;
+    padding: 1.5em;
+  }
+
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
